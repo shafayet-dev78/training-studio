@@ -1,0 +1,945 @@
+/*Start Common CSS*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Raleway', sans-serif;;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-1{
+	width: 8.33%;
+	float: left;
+}
+.col-2{
+	width: 16.66%;
+	float: left;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-5{
+	width: 41.66%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-7{
+	width: 58.33%;
+	float: left;
+}
+.col-8{
+	width: 66.66%;
+	float: left;
+}
+.col-9{
+	width: 75%;
+	float: left;
+}
+.col-10{
+	width: 83.33%;
+	float: left;
+}
+.col-11{
+	width: 91.66%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+
+/*End Common CSS*/
+.head-section{
+	width: 100%;
+	float: left;
+}
+.header{
+	width: 92%;
+	height: 500px;
+	background-image: url(../images/freepik10.jpg);
+	background-size: cover;
+	margin-left: 50px;
+}
+.top-header{
+	width: 100%;
+	height: 52px;
+	background: #656974;
+	opacity: 70%;
+}
+.header-left{
+	width: 100%;
+	float: left;
+}
+.header-left h1{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 850;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+	margin-left: 15px;
+}
+.header-left h1 span{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 850;
+	text-transform: uppercase;
+	color: #DD5350;
+}
+.header-right {
+	width: 100%;
+	float: left;
+}
+.menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 15px;
+	
+}
+.menu li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 600;
+	color:  #fff;
+	transition: 1s;
+}
+.menu li a:hover{
+	color: #DD5350;
+}
+.menu img{
+	height: 15px;
+	width: 15px;
+	padding: 5px;
+	margin: 14px 15px;
+	float: left;
+	position: absolute;
+	color: #fff;
+}
+button{
+	font-size: 12px;
+	font-weight: 600;
+	padding: 2px 10px 4px 25px;
+	background: #DD5350;
+	color: white;
+	border-radius: 2px;
+	transition: 1s;
+	border: 2px solid #DD5350;
+	cursor: pointer;
+}
+button:hover{
+	background: #DD5310;
+	border: 2px solid #DD5310;
+}
+.text{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+.text h3{
+	font-size: 12px;
+	line-height: 32px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+}
+.text h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 850;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+	margin-top: -10px;
+}
+.text h1 span{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 850;
+	text-transform: uppercase;
+	color: #DD5310;
+	padding: 10px;
+}
+.text p{
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.text button{
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	background: #DD5350;
+	color: #fff;
+	border-radius: 2px;
+	transition: 1s;
+	border: 2px solid #DD5350;
+	cursor: pointer;
+}
+.text button:hover{
+	background: #DD5310;
+	border: 2px solid #DD5310;
+}
+
+
+/* Now CSS Start for Login Form */
+
+.signin{
+	width: 100%;
+	margin: 0px auto;
+	float: left;
+}
+.signin-form{
+	width: 100%;
+	float: left;
+}
+.signin-form img{
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+	padding: 25px;
+}
+.signin-form .main-form{
+	width: 100%;
+	float: left;
+	margin-bottom: 80px;
+}
+.signin-form .main-form h2{
+	padding: 120px 15px 0px 15px;
+	font-size: 34px;
+	color: #1e266d;
+	line-height: 44px;
+	font-weight: 700;
+	margin: 0;
+}
+.signin-form .main-form h3{
+	padding: 5px 15px 0px 15px;
+	margin: 0 0 30px;
+	line-height: 28px;
+	color: #9b9b9b;
+	font-size: 18px;
+	font-weight: 500;
+}
+.signin-form .main-form h4{
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: brown;
+	padding: 25px 0px 10px 0px;
+	margin-left: 10px;
+}
+.signin-form .main-form label{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: brown;
+	padding: 0px 5px;
+}
+.main-form .form-control{
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 7px;
+	margin: 0px 0px 15px 5px;
+}
+.signin-form .main-form .btn{
+	position: relative;
+	background: #2e367d;
+	color: #fff;
+	border-radius: 0;
+	font-size: 18px;
+	padding: 11px 50px;
+	z-index: 1;
+	transition: 0.4s ease-in-out;
+	margin-left: 5px;
+	cursor: pointer;
+}
+/* CSS End for Login Form */ --- /* Now CSS Start for Signup Form */
+
+.signup{
+	width: 100%;
+	margin: 0px auto;
+	float: left;
+}
+.signup-form{
+	width: 100%;
+	float: left;
+}
+.signup-form .main-form{
+	float: left;
+	padding: 32px 10px;
+	margin: 20px auto;
+	border-radius: 8px;
+}
+.signup-form img{
+	text-align: right;
+	height: 350px;
+	width: 550px;
+	float: left;
+	margin-top: 120px;
+	padding: 25px;
+}
+.signup-form .main-form h2{
+	padding: 60px 15px 0px 15px;
+	font-size: 34px;
+	color: #1e266d;
+	line-height: 44px;
+	font-weight: 700;
+	margin: 0;
+}
+.signup-form .main-form h3{
+	padding: 5px 15px 0px 15px;
+	margin: 0 0 30px;
+	line-height: 28px;
+	color: #9b9b9b;
+	font-size: 18px;
+	font-weight: 500;
+}
+.signup-form .main-form h4{
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: brown;
+	padding: 15px 0px 10px 0px;
+	margin-left: 10px;
+}
+.signup-form .main-form label{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: brown;
+	padding: 0px 5px;
+}
+.signup-form .main-form .btn{
+	position: relative;
+	background: #2e367d;
+	color: #fff;
+	border-radius: 0;
+	font-size: 18px;
+	padding: 11px 50px;
+	z-index: 1;
+	transition: 0.4s ease-in-out;
+	margin-left: 5px;
+	cursor: pointer;
+}
+............
+
+/* CSS End for Signup Form */
+.sharebutoon-section{
+	width: 100%;
+	float: left;
+}
+
+.program-section{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	text-align: center;
+}
+.program-section h2{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #000;
+	padding: 10px;
+}
+.program-section h2 span{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #DD5310;
+	padding: 10px;
+}
+.program-section img{
+	height: 25px;
+	width: 35px;
+	margin-top: -5px;
+}
+.program-section p{
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000;
+	padding: 10px
+	margin-top: -10px;
+}
+.programsuchi-section{
+	width: 100%;
+	float: left;
+}
+.part-one, .part-two, .part-three{
+	width: 90%;
+	float: left;
+	margin: 0px 80px 30px 50px;
+}
+.left-part, .right-part{
+	width: 100%;
+	float: left;
+	margin-left: 50px;
+}
+.left-part img, .right-part img{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #01A6E8;
+
+}
+.left-part h4, .right-part h4{
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: capitalize;
+	margin: -75px 0px 0px 75px;
+}
+.left-part p, .right-part p{
+	margin: 0px 0px 0px 75px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.left-part h5, .right-part h5{
+	margin: 0px 0px 0px 70px;
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #DD5310;
+	padding: 5px;
+}
+.member-section{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+.image{
+	width: 90%;
+	height: 350px;
+	float: left;
+	background-image: url(../images/freepik09.jpg);
+	background-size: cover;	
+	margin-left: 50px;
+}
+.image button{
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	background: #DD5350;
+	color: white;
+	border-radius: 2px;
+	transition: 1s;
+	border: 2px solid #DD5350;
+	cursor: pointer;
+}
+.image button:hover{
+	background: #DD5310;
+	border: 2px solid #DD5310;
+}
+
+/* 	Social Media Share Icon CSS 	*/
+.fbs{
+	width: 120px;
+	position: fixed;
+	top: 36%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.fbs:hover{
+	width: 120px;
+	position: fixed;
+	top: 36%;
+	right: -5px;
+}
+.tws{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.tws:hover{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	right: -5px;
+}
+.lis{
+	width: 120px;
+	position: fixed;
+	top: 44%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.lis:hover{
+	width: 120px;
+	position: fixed;
+	top: 44%;
+	right: -5px;
+}
+.bes{
+	width: 120px;
+	position: fixed;
+	top: 48%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.bes:hover{
+	width: 120px;
+	position: fixed;
+	top: 48%;
+	right: -5px;
+}
+.yts{
+	width: 120px;
+	position: fixed;
+	top: 52%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.yts:hover{
+	width: 120px;
+	position: fixed;
+	top: 52%;
+	right: -5px;
+}
+.pis{
+	width: 120px;
+	position: fixed;
+	top: 56%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.pis:hover{
+	width: 120px;
+	position: fixed;
+	top: 56%;
+	right: -5px;
+}
+.ins{
+	width: 120px;
+	position: fixed;
+	top: 60%;
+	right: -97px;
+	cursor: pointer;
+	transition: 1s;
+}
+.ins:hover{
+	width: 120px;
+	position: fixed;
+	top: 60%;
+	right: -5px;
+}
+/* Social Media Share Button CSS End */
+
+.classes-section{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	text-align: center;
+}
+.classes-section h2{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #000;
+	padding: 10px;
+}
+.classes-section h2 span{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #DD5310;
+	padding: 10px;
+}
+.classes-section img{
+	height: 25px;
+	width: 35px;
+	margin-top: -5px;
+}
+.classes-section p{
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000;
+	padding: 10px
+	margin-top: -10px;
+}
+
+.training-section{
+	width: 100%;
+	float: left;
+}
+.training{
+	width: 100%;
+	float: left;
+	margin-left: 50px;
+}
+.left-side{
+	width: 100%;
+	float: left;
+	margin: 0px 0px 50px 50px;
+	padding: 12px;
+}
+.left-side img{
+	height: 25px;
+	width: 25px;
+}
+.left-side h3{
+	font-size: 14px;
+	line-height: 24px;
+	margin: -30px 0px 0px 30px;
+	text-transform: capitalize;
+}
+.one, .two, .three, .four{
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.left-side button{
+	font-size: 12px;
+	font-weight: 600;
+	padding: 5px 15px;
+	background: #DD5350;
+	color: white;
+	cursor: pointer;
+	margin-left: 35px;
+}
+.left-side button:hover{
+	background: #DD5310;
+	border: 2px solid #DD5310;
+}
+.right-side{
+	width: 100%;
+	float: left;
+}
+.right-side img{
+	width: 70%;
+	height: 200px;
+}
+.right-side h2{
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.right-side p{
+	font-size: 10px;
+	line-height: 20px;
+}
+.right-side button{
+	font-size: 10px;
+	font-weight: 600;
+	padding: 5px 15px;
+	background: #DD5350;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.right-side button:hover{
+	background: #DD5310;
+	border: 2px solid #DD5310;
+}
+
+.schedule-section{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 50px 0px;
+}
+.schedule{
+	width: 90%;
+	height: 600px;
+	background-image: url(../images/freepik10.jpg);
+	background-size: cover;
+	margin-left: 50px;
+	padding-bottom: 50px;
+}
+.schedule-section h2{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 80px 10px 10px 10px;
+}
+.schedule-section h2 span{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #DD5310;
+	padding: 10px;
+}
+.schedule-section img{
+	height: 25px;
+	width: 35px;
+	margin-top: -5px;
+}
+.schedule-section p{
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	padding: 10px
+	margin-top: -10px;
+}
+.schedule-section h4{
+	font-size: 10px;
+	line-height: 20px;
+	text-transform: capitalize;
+	font-weight: 800;
+	color: #fff;
+	padding: 10px;
+}
+table{
+	text-align: center;
+	text-transform: capitalize;
+	width: 85%;
+	margin-left: 70px;
+	border: 1px solid #fff;
+	line-height: 70px;
+	color: #fff;
+	font-size: 10px;
+}
+tbody{
+	margin-bottom: 70px;
+}
+tr{
+	border: 1px solid #fff;
+}
+td{
+	border: 1px solid #fff;	
+}
+
+.trainer-section{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.trainer-section h2{
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #000;
+	padding: 80px 10px 10px 10px;
+}
+.trainer-section h2 span{
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #DD5310;
+	padding: 10px;
+}
+.trainer-section img{
+	height: 25px;
+	width: 35px;
+	margin-top: -5px;
+}
+.trainer-section p{
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000;
+	padding: 10px
+	margin-top: -10px;
+}
+.trainerslist-section{
+	width: 100%;
+	float: left;
+}
+.trainers{
+	width: 90%;
+	float: left;
+	margin-left: 100px;
+}
+.first-part, .second-part, .third-part{
+	width: 100%;
+	float: left;
+}
+.first-part h5, .second-part h5, .third-part h5{
+	font-size: 8px;
+	line-height: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: red;
+	margin-top: -25px;
+}
+.first-part h3, .second-part h3, .third-part h3{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #DD5310;
+}
+.first-part img, .second-part img, .third-part img{
+	height: 220px;
+	width: 250px;
+}
+.first-part p, .second-part p, .third-part p{
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000;
+	padding: 10px
+	margin-top: -10px;
+}
+
+.social-media{
+	width: 100%;
+	padding: 10px 0px;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+		/*       Social Media Icon CSS with Hover and Focus	 */
+
+.social-icons li a .fa{
+	display: block;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 100%;
+	font-size: 12px;
+	transition: 1s;
+	margin: 0px 3px;
+}
+.social-icons li a .fa-facebook{
+	background: #1094F4;
+	color: white;
+}
+.social-icons li a .fa-twitter{
+	background: #E8F5FD;	
+	color: #1D9BF0;
+}
+.social-icons li a .fa-linkedin{
+	background: #0A66C2;
+	color: white;
+}
+.social-icons li a .fa-instagram{
+	background: #DA2778;
+	color: white;
+}
+.social-icons li a .fa-youtube{
+	background: #FF0000;
+	color: white;
+}
+.social-icons li a:hover .fa-facebook, .social-icons li a:focus .fa-facebook{
+	background: white;
+	color: #1094F4;
+}
+.social-icons li a:hover .fa-twitter, .social-icons li a:focus .fa-twitter{
+	background: #1D9BF0;
+	color: #E8F5FD;
+}
+.social-icons li a:hover .fa-linkedin, .social-icons li a:focus .fa-linkedin{
+	background: white;
+	color: #0A66C2;
+}
+.social-icons li a:hover .fa-instagram, .social-icons li a:focus .fa-instagram{
+	background: white;
+	color: #DA2778;
+}
+.social-icons li a:hover .fa-youtube, .social-icons li a:focus .fa-youtube{
+	background: white;
+	color: #FF0000;
+}
+
+.contact-section{
+	width: 100%;
+	float: left;
+	margin: 40px 50px 30px 50px;
+}
+.map{
+	width: 95%;
+	float: left;
+}
+.message{
+	width: 100%;
+	float: left;
+	margin-left: 30px;
+}
+.message-box{
+	width: 85%;
+	float: left;
+	border: 30px solid black;
+	margin-left: 30px;
+}
+.message-box input{
+	display: block;
+	padding: 11px;
+	width: 90%;
+	line-height: 18px;
+	margin: 15px;
+}
+.message-box textarea{
+	display: block;
+	padding: 10px;
+	margin: 15px;
+}
+.message-box button{
+	padding: 10px;
+	margin: 8px 0px 8px 15px;
+}
+.footer-section{
+	width: 100%;
+	text-align: center;
+}
+.footer-section p{
+	font-size: 11px;
+	padding: 20px;
+	text-transform: capitalize;
+}
+.footer-section p span{
+	color: #DD5310;
+}
